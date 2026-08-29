@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#667A4E">
+  <meta name="description" content="Таня & Саша — wedding house party, 20.09.2026, Kyiv">
+  <title>Таня & Саша — 20.09.2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section class="hero">
+  <img class="hero-image" src="hero-kyiv.png" alt="Київ на заході сонця">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="micro">20 · 09 · 2026 · KYIV · 16:00</p>
+    <h1>ТАНЯ <em>&</em> САША</h1>
+    <p class="hero-line">WE GOT MARRIED.<br>NOW LET’S CELEBRATE.</p>
+  </div>
+</section>
+
+<section class="section cream party-intro">
+  <div class="container narrow center">
+    <p class="eyebrow">THE PARTY</p>
+    <h2>Просто хороша вечірка<br>з нашими людьми</h2>
+    <p class="lead">Ми одружуємося — і хочемо просто зібрати наших людей та класно провести вечір разом.</p>
+    <p>Це не буде формальне весілля чи класичний банкет — просто красива вечірка з найближчими.</p>
+    <p class="party-flow">Welcome drinks <span>→</span> food <span>→</span> cocktails <span>→</span> music <span>→</span> dancing <span>→</span> afterparty</p>
+    <p class="soft-note">Без зайвої офіційності й жорсткого таймінгу — приходьте відпочивати, тусити й святкувати разом з нами.</p>
+  </div>
+</section>
+
+<section class="mood-band">
+  <div class="mood-copy coral"><p class="eyebrow">GOOD PEOPLE.<br>GOOD DRINKS.<br>GOOD NIGHT.</p></div>
+  <div class="mood-image-wrap"><img src="party-mood.jpg" alt="Келихи шампанського на вечірці"></div>
+  <div class="mood-copy lime"><p class="big-word">LET’S<br>PARTY</p></div>
+</section>
+
+<section class="section yellow">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <p class="eyebrow">WHEN & WHERE</p>
+        <h2>20 вересня<br>о 16:00</h2>
+      </div>
+      <div class="details-copy">
+        <p><strong>Київ</strong></p>
+        <p>Великий приватний будинок для нашої вечірки.</p>
+        <a class="button dark" href="https://maps.app.goo.gl/e1p2faRhu3eoTff69?g_st=ic" target="_blank" rel="noopener">OPEN LOCATION</a>
+        <p class="small-note">Після <strong>22:00</strong> музика, танці й увесь шум переїжджають з вулиці в будинок.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section green">
+  <div class="container">
+    <p class="eyebrow light">GOOD TO KNOW</p>
+    <div class="info-grid">
+      <article><span class="number">01</span><h3>Food & drinks</h3><p>Кейтеринг, снеки, коктейлі, алкогольні й безалкогольні напої протягом вечора.</p></article>
+      <article><span class="number">02</span><h3>Stay the night</h3><p>Після вечірки можна буде залишитися в будинку на ніч.</p></article>
+      <article><span class="number">03</span><h3>There’s a pool</h3><p>Тож купальники й плавки дуже навіть доречні.</p></article>
+      <article><span class="number">04</span><h3>Dress code</h3><p>Дрес-коду немає. Приходьте так, як вам комфортно.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section cream rsvp-section" id="rsvp">
+  <div class="container rsvp-layout">
+    <div class="rsvp-heading">
+      <p class="eyebrow">RSVP</p>
+      <h2>Are you in?</h2>
+      <p>Дай нам знати до <strong>05.09.2026</strong>.</p>
+    </div>
+
+    <iframe name="rsvp_sink" id="rsvp_sink" class="hidden-frame"></iframe>
+    <form id="rsvpForm" class="rsvp-form" action="YOUR_DAY2_APPS_SCRIPT_URL" method="POST" target="rsvp_sink">
+
+      <label class="field">
+        <span>Як тебе звати?</span>
+        <input name="name" type="text" autocomplete="name" placeholder="Ім’я та прізвище" required>
+      </label>
+
+      <fieldset class="block">
+        <legend>Будеш з нами?</legend>
+        <div class="choice-row">
+          <label class="pill"><input type="radio" name="attendance" value="Так" required><span>Так 🤍</span></label>
+          <label class="pill"><input type="radio" name="attendance" value="Ні"><span>На жаль, не зможу</span></label>
+        </div>
+      </fieldset>
+
+      <div id="attendingFields" hidden>
+        <fieldset class="block">
+          <legend>Будеш сам/сама чи з +1?</legend>
+          <div class="choice-row">
+            <label class="pill"><input type="radio" name="plusOne" value="Сам/сама"><span>Сам/сама</span></label>
+            <label class="pill"><input type="radio" name="plusOne" value="З +1"><span>З +1</span></label>
+          </div>
+        </fieldset>
+
+        <label class="field" id="plusOneNameField" hidden>
+          <span>Як звати твого +1?</span>
+          <input name="plusOneName" type="text" placeholder="Ім’я +1">
+        </label>
+
+        <fieldset class="block">
+          <legend>Залишаєшся на ніч?</legend>
+          <div id="overnightSolo" class="choice-row">
+            <label class="pill"><input type="radio" name="overnight" value="Так"><span>Так</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Ні"><span>Ні</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Ще не знаю"><span>Ще не знаю</span></label>
+          </div>
+          <div id="overnightPlusOne" class="choice-row" hidden>
+            <label class="pill"><input type="radio" name="overnight" value="Так, обоє"><span>Так, обоє</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Тільки я"><span>Тільки я</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Тільки +1"><span>Тільки +1</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Ні"><span>Ні</span></label>
+            <label class="pill"><input type="radio" name="overnight" value="Ще не знаємо"><span>Ще не знаємо</span></label>
+          </div>
+        </fieldset>
+
+        <div class="menu-block">
+          <p class="menu-title">Допоможи нам з меню 🍕🍸</p>
+
+          <fieldset class="compact-group">
+            <legend>Їжа</legend>
+            <div class="check-grid">
+              <label><input type="checkbox" name="food" value="м'ясо / BBQ"> м'ясо / BBQ</label>
+              <label><input type="checkbox" name="food" value="риба / морепродукти"> риба / морепродукти</label>
+              <label><input type="checkbox" name="food" value="street food / піца"> street food / піца</label>
+              <label><input type="checkbox" name="food" value="легкі закуски"> легкі закуски</label>
+              <label><input type="checkbox" name="food" value="vegetarian"> vegetarian</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="compact-group">
+            <legend>Снеки</legend>
+            <div class="check-grid">
+              <label><input type="checkbox" name="snacks" value="сир / м'ясні снеки"> сир / м'ясні снеки</label>
+              <label><input type="checkbox" name="snacks" value="чипси / начос / горішки"> чипси / начос / горішки</label>
+              <label><input type="checkbox" name="snacks" value="фрукти"> фрукти</label>
+              <label><input type="checkbox" name="snacks" value="солодке"> солодке</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="compact-group">
+            <legend>Напої</legend>
+            <div class="check-grid">
+              <label><input type="checkbox" name="drinks" value="ігристе / вино"> ігристе / вино</label>
+              <label><input type="checkbox" name="drinks" value="пиво / сидр"> пиво / сидр</label>
+              <label><input type="checkbox" name="drinks" value="gin / Aperol / коктейлі"> gin / Aperol / коктейлі</label>
+              <label><input type="checkbox" name="drinks" value="whiskey / міцне"> whiskey / міцне</label>
+              <label><input type="checkbox" name="drinks" value="без алкоголю"> без алкоголю</label>
+            </div>
+          </fieldset>
+
+          <label class="field">
+            <span>Є алергії, особливості в харчуванні або щось важливе?</span>
+            <textarea name="notes" rows="3" placeholder="Необов’язково. Тут же можна написати інформацію про +1."></textarea>
+          </label>
+        </div>
+      </div>
+
+      <button id="submitButton" class="submit-button" type="submit">I'M IN</button>
+      <p id="rsvpMessage" class="message" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="house-info">
+  <div class="container house-grid">
+    <div>
+      <p class="eyebrow light">HOUSE INFO</p>
+      <h2>See you there.</h2>
+    </div>
+    <div class="wifi">
+      <p><span>Wi‑Fi</span> Chill House Wi‑Fi</p>
+      <p><span>Password</span> <code>Chillkyiv</code></p>
+    </div>
+  </div>
+</section>
+
+<footer><p>Таня & Саша · 20.09.2026</p></footer>
+</main>
+
+<script>
+const form = document.getElementById("rsvpForm");
+const sink = document.getElementById("rsvp_sink");
+const attendingFields = document.getElementById("attendingFields");
+const plusOneNameField = document.getElementById("plusOneNameField");
+const overnightSolo = document.getElementById("overnightSolo");
+const overnightPlusOne = document.getElementById("overnightPlusOne");
+const submitButton = document.getElementById("submitButton");
+const message = document.getElementById("rsvpMessage");
+let submitted = false;
+let attendanceValue = "";
+
+function clearRadios(container) {
+  container.querySelectorAll('input[type="radio"]').forEach(el => el.checked = false);
+}
+
+document.querySelectorAll('input[name="attendance"]').forEach(radio => {
+  radio.addEventListener("change", () => {
+    attendanceValue = radio.value;
+    if (radio.value === "Так") {
+      attendingFields.hidden = false;
+      submitButton.textContent = "I'M IN";
+    } else {
+      attendingFields.hidden = true;
+      plusOneNameField.hidden = true;
+      submitButton.textContent = "НАДІСЛАТИ ВІДПОВІДЬ";
+    }
+  });
+});
+
+document.querySelectorAll('input[name="plusOne"]').forEach(radio => {
+  radio.addEventListener("change", () => {
+    const withPlusOne = radio.value === "З +1";
+    plusOneNameField.hidden = !withPlusOne;
+    overnightSolo.hidden = withPlusOne;
+    overnightPlusOne.hidden = !withPlusOne;
+    if (withPlusOne) {
+      clearRadios(overnightSolo);
+    } else {
+      clearRadios(overnightPlusOne);
+      plusOneNameField.querySelector("input").value = "";
+    }
+  });
+});
+
+form.addEventListener("submit", () => {
+  submitted = true;
+  submitButton.disabled = true;
+  submitButton.textContent = "НАДСИЛАЄМО…";
+  message.textContent = "";
+});
+
+sink.addEventListener("load", () => {
+  if (!submitted) return;
+  submitted = false;
+  const wasAttending = attendanceValue === "Так";
+  form.reset();
+  attendingFields.hidden = true;
+  plusOneNameField.hidden = true;
+  overnightSolo.hidden = false;
+  overnightPlusOne.hidden = true;
+  submitButton.disabled = false;
+  submitButton.textContent = "I'M IN";
+  message.textContent = wasAttending
+    ? "До зустрічі 20 вересня 🥂"
+    : "Дякуємо, що дали знати 🤍";
+});
+</script>
+</body>
+</html>
